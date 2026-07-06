@@ -1,0 +1,128 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #faf6f1;
+   color: #2e2620;
+   margin: 0;
+   padding: 2rem 1rem;
+}
+
+.page {
+   max-width: 640px;
+   margin: 0 auto;
+}
+
+h1 {
+   color: #6b3e26;
+   margin-bottom: 1.5rem;
+}
+
+.order-form {
+   background-color: #ffffff;
+   border: 1px solid #e2d5c7;
+   border-radius: 8px;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+label {
+   font-weight: bold;
+}
+
+select {
+   width: 100%;
+   padding: 0.5rem;
+   font-size: 1rem;
+   margin-top: 0.25rem;
+}
+
+.drink-size {
+   border: 1px solid #e2d5c7;
+   border-radius: 6px;
+   padding: 0.75rem 1rem;
+}
+
+.drink-size label {
+   font-weight: normal;
+   margin-right: 1rem;
+}
+
+.form-actions {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-top: 0.5rem;
+}
+
+button {
+   background-color: #6b3e26;
+   color: #ffffff;
+   border: none;
+   border-radius: 6px;
+   padding: 0.6rem 1.2rem;
+   font-size: 1rem;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #543018;
+}
+
+.order-again-link,
+.forget-link {
+   color: #6b3e26;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.order-again-link:hover,
+.forget-link:hover {
+   text-decoration: underline;
+}
+
+.receipt-card {
+   background-color: #ffffff;
+   border: 1px solid #e2d5c7;
+   border-radius: 8px;
+   padding: 1.5rem;
+   margin-bottom: 1.5rem;
+   line-height: 1.8;
+}
+
+.insight-card {
+   background-color: #fff8f0;
+   border: 1px solid #e9dcc9;
+   border-radius: 8px;
+   padding: 1rem 1.5rem;
+   margin-top: 1.5rem;
+}
+
+.insight-note {
+   color: #6b3e26;
+}
+
+.pricing-grid {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+}
+
+.pricing-grid > div {
+   flex: 1;
+   min-width: 140px;
+}
+
+.price-figure {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #6b3e26;
+}
+
+.full-width-note {
+   flex-basis: 100%;
+}
