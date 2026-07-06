@@ -61,7 +61,7 @@ require "./order_functions.php";
    </form>
 
    <div class="insight-card">
-      <h3>Live guidance</h3>
+      <h2>Live guidance</h2>
       <p><?= htmlspecialchars(completionMessage()); ?></p>
       <p class="insight-note"><?= htmlspecialchars(pairingSuggestion()); ?></p>
    </div>
