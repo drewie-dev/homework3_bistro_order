@@ -34,11 +34,6 @@ $orderSummary = order();
       <p class="insight-note full-width-note"><?= htmlspecialchars(pricingNote()); ?></p>
    </div>
 
-   <div class="form-actions">
-      <a href="index.php" class="order-again-link">Order Again</a>
-      <a href="forget_order.php" class="forget-link">Forget Order</a>
-   </div>
-
 </main>
 
 </body>
